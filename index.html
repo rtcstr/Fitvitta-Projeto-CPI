@@ -8,135 +8,114 @@
         <meta name="description" content="Atividades físicas no Parque da Cidade aos finais de semana">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <link href="home.css" rel="stylesheet">
+        <link href="global.css" rel="stylesheet">
         
-            <style>
-                body {
-                    margin: 0;
-                    padding: 0;
-                    font-family: "Noto Sans JP";
-                }
-            </style>
-
+            
     </head>
 
-    <body link="#8BC34A" alink="#8BC34A" vlink="#8BC34A">
+    <body>
         
-        <img src="img/banner.png" alt="imagem de uma mulher em prepação para correr" width="100%" height="370"/>
+        <header>
+            <img src="img/bannerhome.png" alt="imagem de uma mulher em prepação para correr" width="100%"/>
+        </header>
 
-        
-            <a href="#pag-home">Home</a>
-            <a href="#pag-sobrenos">Sobre Nós</a>
-            <a href="agendamento.html">Agendamentos</a>
+
+            <nav>
+                <a href="#pag-home">Home</a>
+                <a href="#pag-sobrenos">Sobre Nós</a>
+                <a href="agendamento.html">Agendamentos</a>
+            </nav>
        
 
-    <hr id="pag-home"/>
+    
+
+       <article>
+            <h1>Você no domínio do seu corpo</h1>
+
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                </p>
+
+        </article> 
 
 
-       <h1>Você no domínio do seu corpo</h1>
+        <section class="exercicios">
+            <h2> Nossos exercícios</h2>
 
-        <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
-            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book.
-        </p>
+            <p>Oferecemos as seguintes modalidades:</p>
 
-        <h2> Nossos exercícios</h2>
+                <ul>
+                    <li>1. Ciclismo</li>
+                    <li>2. Treinamento Funcional</li>
+                    <li>3. Yoga</li>
+                </ul>
 
-        <p>Oferecemos as seguintes modalidades:</p>
-
-            <ul type="circle">
-                <li>1. Ciclismo</li>
-                <li>2. Treinamento Funcional</li>
-                <li>3. Yoga</li>
-            </ul>
+        </section>
 
         <hr id="pag-nossosexercicios"/>
     
+       <article>
         <h2>Blog</h2>
 
         <p>Fique por dentro das nossas novidades</p>
 
+        <div class="blog">
 
-        <table>
-			<tr>
-				<td><img src="img/blog1.png" width="300" alt="Ciclista pedalando" /></td>
-				<td><img src="img/blog2.png" width="300" alt="Mulher correndo"/></td>
-				<td><img src="img/blog3.png" width="300" alt="hMulher pulando corda"/></td>
-			</tr>
-			<tr>
-				<td>Os benefícios de pedalar</td>
-				<td>Corrida: A queridinha do momento</td>
-				<td>O guia definitivo de como pular corda</td>
-			</tr>
-			<tr>
-				<td>
-                    Lorem Ipsum is simply dummy text of 
-                    the printing and typesetting industry. Lorem  
-                    Ipsum has been the industry's standard  
-                    dummy text ever since the 1500s, when  
-                    an unknown printer took a galley of type.
-				
-				</td>
+            <div>
+                <img class="img-blog" src="img/walk.jpg" alt="mulher caminhando">
+                <h3>Impactos da Caminhada</h3>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </p>
+            </div>
 
-                <td>
-                    Lorem Ipsum is simply dummy text of 
-                    the printing and typesetting industry. Lorem  
-                    Ipsum has been the industry's standard  
-                    dummy text ever since the 1500s, when  
-                    an unknown printer took a galley of type.					
-				</td>
+            <div>
+                <img class="img-blog" src="img/bike.png" alt="homem pedalando">
+                <h3>Os benefícios de Pedalar</h3>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </p>
+            </div>
 
-				<td>
-                    Lorem Ipsum is simply dummy text of 
-                    the printing and typesetting industry. Lorem  
-                    Ipsum has been the industry's standard  
-                    dummy text ever since the 1500s, when  
-                    an unknown printer took a galley of type.					
-				</td>
-			</tr>
-		</table>
+            <div>
+                <img class="img-blog" src="img/yoga.jpg" alt="mulher fazendo yoga">
+                <h3>5 dicas para começar no Yoga</h3>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </p>
+            </div>
 
-        <hr id="pag-sobrenos"/>
+        </div>
+        </article> 
+
+    
+        <section>
 
         <h2>Sobre nós</h2>
 
-        <table>
+            <section class="about-content">
+        
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
 
-            <tr>
-                <td>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy.</p>
-                   
-                     <p> 
-                         <a href="http://www.instagram.com.br" target="_blank">
-                        <img src="img/instagram.png">
-                        </a>
+                <video src="img/video.mp4" width="400" controls autoplay preload="auto" loop>
+                    Seu navegador não suporta vídeo!
+                </video>
 
-                        <!--_blank abre o link em uma nova guia-->
+            </section>
 
-                        <a href="http://www.facebook.com.br" target="_blank">
-                        <img src="img/facebook.png">
-                        </a>
+        </section>
 
-                        <a href="http://www.twitter.com.br" target="_blank">
-                       <img src="img/twitter.png">
-                       </a>
-                     </p>  
 
-                </td>
+        <section class="social-media">
+                <a href="#"><img src="img/icons/instagram.svg"/></a>
+                <a href="#"><img img src="img/icons/facebook.svg"/></a>
+                <a href="#"><img img src="img/icons/youtube.svg"/></a>    
+         </section>
 
-                <td>
-                    <video src="img/video.mp4" width="400" controls autoplay preload="auto" loop>
-                    Seu navegador não suporta vídeo.
-                    </video>
-                </td>
-            </tr>
-        </table>
 
-    <hr/>
+    <footer>
 
-    <p>Desenvolvido por <a href="http://instagram.com/rtcstr" target="_blank">Rita Brilhante</a> - 2021 </p>
+        <p>Desenvolvido por <a href="http://instagram.com/rtcstr" target="_blank">Rita Brilhante</a> - 2021 </p>
+        <a href="https://github.com/rtcstr/Fitvitta-Projeto-CPI"><img class="git" src="img/icons/github.svg"></a>
 
+    </footer>
 
 </body>
 

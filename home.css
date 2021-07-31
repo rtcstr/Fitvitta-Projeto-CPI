@@ -1,0 +1,47 @@
+.blog{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3.2rem;    
+}
+
+.blog p {
+    line-height: 160%;
+    max-width: 70%;
+}
+
+.img-blog {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 1.6rem;
+}
+
+
+.about {
+    padding: 0 1.6rem;
+}
+
+
+.about-content p {
+    margin-right: 25.6rem;
+    max-width: 100%;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.social-media {
+    padding: 0 1.6rem;
+    margin-bottom: 3.2rem;
+}
+
+
+.social-media img {
+    height: 4rem;
+    width: 4rem;
+    margin-right: .8rem;
+}
+
